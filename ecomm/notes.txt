@@ -1,6 +1,8 @@
 #starts virtual environment
 workon ecomm
 
+django-admin startproject ecomm
+
 python manage.py makemigrations
 python manage.py migrate
 
